@@ -1,0 +1,5 @@
+/* Iniciando com a tela do jogo não exibida */
+
+#gameScreen {
+    display: none;
+}

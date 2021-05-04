@@ -1,0 +1,21 @@
+Instalações necessárias:
+
+   - sudo apt install nodejs
+   - sudo apt install npm
+   - sudo npm install --global yarn
+
+Comandos:
+
+   - Adicionando o socket.io no server
+       yarn add socket.io
+          ou
+       npm install socket.io
+
+   - Criando um live server para o front:
+       npx live-server
+       
+   - Executando o server:
+       npx nodemon server.js
+
+   - Atualizando as dependências (na pasta do projeto):
+       npm update
