@@ -4,8 +4,8 @@ const SNAKE_COLOUR = '#c2c2c2';
 const FOOD_COLOUR = '#e66916';
 
 //URL onde irá conectar o socket
-//const socket = io('https://sleepy-island-33889.herokuapp.com/'); //http://localhost:3000
-const socket = io('http://localhost:3000');
+const socket = io('https://whispering-scrubland-91890.herokuapp.com/');
+//const socket = io('http://localhost:3000');
 
 //(Listenings) Comunicações via socket (Recebido do Server: init, gameState, gameOver, etc...)
 // Cada comando executa uma função diferente

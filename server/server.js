@@ -124,4 +124,6 @@ function emitGameOver(room, winner) {
 }
 
 // Ouvindo a porta
+// Para o Heroku, usar a variável de ambiente da porta, que é injetada pelo heroku
+// a Porta 3000 é apenas fallback
 io.listen(process.env.PORT || 3000);
